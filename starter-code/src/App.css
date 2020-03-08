@@ -1,20 +1,21 @@
 .App {
   text-align: center;
+  margin:5vh;
 }
 
-.App-logo {
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #222;
   height: 150px;
   padding: 20px;
   color: white;
-}
+} */
 
-.App-title {
+/* .App-title {
   font-size: 1.5em;
 }
 
@@ -25,4 +26,103 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+} */
+
+
+nav{
+  background-color: #2ba8de;
+  height: 40px;
+}
+.beerDiv{
+  
+  display: grid;
+  justify-content: left;
+  grid-template-columns: repeat(2, minmax(100px,200px));
+  grid-gap: 10px;
+  padding: 10px 10px 50px 10px;
+}
+ul{
+  margin: 0px;
+  text-align: -webkit-center;
+  list-style-type: none;
+
+}
+.beerImg{
+  padding-right: 20px;
+
+}
+.beerStuff{
+  padding: 10px;
+  text-align: left;
+}
+nav > Link > img{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+text-decoration: none;
+}
+h1 {
+  text-decoration: none;
+  color: black;
+}
+/* Style buttons */
+.home {
+  /* background-color: DodgerBlue; Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  text-decoration: none;
+}
+
+/* Darker background on mouse-over */
+/* .home:hover {
+  background-color: ;
+} */
+div  a {
+  text-decoration: none;
+}
+form {
+  margin: 30px auto;
+  width: 380px;
+}
+
+form label {
+  color: #666;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+form input,
+form button {
+  box-sizing: border-box;
+  font-size: 14px;
+  outline: 0;
+  padding: 4px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form button {
+  background: #43a3e6;
+  border: 1px solid #43a3e6;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .3s ease background;
+  width: 100%;
+}
+
+form button:hover {
+  background: #fff;
+  color: #43a3e6;
+  transition: .3s ease background;
 }
